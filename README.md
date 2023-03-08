@@ -1,7 +1,7 @@
 # Writethrough caching
 Writethrough caching is a technique that allows data to be written to the disk before it is flushed from the cache. This ensures that all data is saved to the disk before the server is restarted, and that the data is available in the cache after the restart.
 
-###General steps to configure writethrough caching:
+### General steps to configure writethrough caching:
 
 Mount the file system with the writethrough option.
 When you mount a file system, you can specify the caching strategy using the writethrough option. This tells the system to write data to the disk before it is flushed from the cache. Here's an example of how to mount a file system with the writethrough option:
