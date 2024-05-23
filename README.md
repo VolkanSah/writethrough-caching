@@ -47,3 +47,5 @@ mount -o writethrough /dev/sda1 /mnt/data
 - **Mount Failures**: Ensure that the device is not already mounted or in use by another process.
 
 By leveraging writethrough caching effectively, you can enhance data security and integrity, ensuring that your system can recover quickly from restarts without data loss.
+
+### [Volkan Sah](https://github.com/volkansah)
