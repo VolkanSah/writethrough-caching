@@ -1,5 +1,6 @@
 
 # Writethrough Caching
+###### Updated 05/2024
 
 Writethrough caching is a storage technique where data is simultaneously written to both the cache and the backing storage medium. This approach ensures data integrity by confirming that all data is safely written to permanent storage before being considered successful on the cache side.
 
